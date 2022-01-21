@@ -5,6 +5,7 @@
 //  Created by Matej Dorcak on 09/07/2019.
 //
 
+import CoreImage
 import Foundation
 
 // MARK: - LuminanceThresholdFilter

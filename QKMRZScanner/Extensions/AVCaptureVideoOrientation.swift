@@ -5,8 +5,9 @@
 //  Created by Matej Dorcak on 05/10/2018.
 //
 
-import Foundation
 import AVFoundation
+import Foundation
+import UIKit
 
 extension AVCaptureVideoOrientation {
     internal init(orientation: UIInterfaceOrientation) {

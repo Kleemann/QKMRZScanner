@@ -5,8 +5,10 @@
 //  Created by Matej Dorcak on 16/10/2018.
 //
 
+import CoreImage
 import Foundation
 import QKMRZParser
+import UIKit
 
 public class QKMRZScanResult {
     public let documentImage: UIImage
@@ -50,8 +52,8 @@ public class QKMRZScanResult {
         surnames = mrzResult.surnames
         givenNames = mrzResult.givenNames
         documentNumber = mrzResult.documentNumber
-        nationality = mrzResult.nationality
-        birthDate = mrzResult.birthDate
+        nationality = mrzResult.nationalityCountryCode
+        birthDate = mrzResult.birthdate
         sex = mrzResult.sex
         expiryDate = mrzResult.expiryDate
         personalNumber = mrzResult.personalNumber

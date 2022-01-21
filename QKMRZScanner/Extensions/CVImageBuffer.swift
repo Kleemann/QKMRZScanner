@@ -5,6 +5,7 @@
 //  Created by Matej Dorcak on 10/07/2019.
 //
 
+import CoreImage
 import Foundation
 
 extension CVImageBuffer {
